@@ -27,12 +27,12 @@ $(document).ready(function(){
 	for(var i=0; i <= 100; i++){
 		numArray.push(i + " ");
 		if ((numArray[i]%15)==0) {
-			numArray[i] = "fizzbuzz";
+			numArray[i] = "fizzbuzz ";
 
 		} else if (numArray[i]%3==0) {
-			numArray[i] = "fizz";
+			numArray[i] = "fizz ";
 		} else if (numArray[i]%5==0) {
-			numArray[i] = "buzz";
+			numArray[i] = "buzz ";
 		}
 
 	}
